@@ -128,16 +128,16 @@ export default function AdminLayout() {
             </NavLink>
 
             <NavLink
-              to="/admin/projects/districts"
-              style={subMenuStyle}
-            >
-              🏙 Districts
-            </NavLink>
+  to="/admin/projects/states/bihar/districts"
+  style={subMenuStyle}
+>
+  🏙 Districts
+</NavLink>
           </div>
 
-          <NavLink to="/admin/settings" style={menuStyle}>
+          {/* <NavLink to="/admin/settings" style={menuStyle}> */}
             ⚙️ Settings
-          </NavLink>
+          {/* </NavLink> */}
         </div>
 
         {/* Bottom */}
