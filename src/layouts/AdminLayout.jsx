@@ -65,15 +65,21 @@ export default function AdminLayout() {
         }}
       >
         <div>
-          <h2
-            style={{
-              textAlign: "center",
-              marginTop: 0,
-              marginBottom: "25px",
-            }}
-          >
-            🏢 VATS ERP
-          </h2>
+         <h2
+  style={{
+    fontSize: "20px",
+    fontWeight: "700",
+    color: "#ffffff",
+    textAlign: "center",
+    lineHeight: "1.4",
+    letterSpacing: "1px",
+    margin: "20px 10px",
+  }}
+>
+  VATS INNOVATION
+  <br />
+  PVT. LTD.
+</h2>
 
           <hr
             style={{
@@ -99,13 +105,13 @@ export default function AdminLayout() {
             🕒 Attendance
           </NavLink>
 
-          <NavLink to="/admin/payroll" style={menuStyle}>
+          {/* <NavLink to="/admin/payroll" style={menuStyle}> */}
             💰 Payroll
-          </NavLink>
+          {/* </NavLink> */}
 
-          <NavLink to="/admin/leave" style={menuStyle}>
+          {/* <NavLink to="/admin/leave" style={menuStyle}> */}
             📅 Leave Management
-          </NavLink>
+          {/* </NavLink> */}
 
           {/* Projects section */}
           <NavLink to="/admin/projects" end style={menuStyle}>

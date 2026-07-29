@@ -119,7 +119,7 @@ export default function DistrictWorkOrders() {
 
   const handleAddWorkOrder = () => {
     navigate(
-      `/admin/projects/states/${stateId}/districts/${districtId}/add`,
+      `/admin/projects/states/${stateId}/districts/${districtId}/work-orders/add`,
     );
   };
 
